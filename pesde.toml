@@ -1,0 +1,13 @@
+name = "metamethods/no"
+version = "0.1.0"
+description = "repeatedly output the string 'n' until killed"
+authors = ["metamethods"]
+repository = "https://github.com/metamethods/luau-no"
+license = "MIT"
+
+[target]
+environment = "lune"
+bin = "bin.luau"
+
+[indices]
+default = "https://github.com/pesde-pkg/index"
