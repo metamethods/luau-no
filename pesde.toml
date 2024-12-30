@@ -4,6 +4,7 @@ description = "repeatedly output the string 'n' until killed"
 authors = ["metamethods"]
 repository = "https://github.com/metamethods/luau-no"
 license = "MIT"
+includes = ["pesde.toml", "README.md", "LICENSE", "bin.luau"]
 
 [target]
 environment = "lune"
